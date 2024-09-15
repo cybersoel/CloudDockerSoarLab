@@ -1,0 +1,49 @@
+<html>
+<body>
+<h2>SQL Injection Attempt Detected</h2>
+
+<h3>Alert Details:</h3>
+<p>
+Severity: $exec.all_fields.rule.level<br>
+Rule ID: $exec.all_fields.rule.id<br>
+Timestamp: $exec.all_fields.timestamp<br>
+Alert ID: $exec.all_fields.id
+</p>
+
+<h3>Network Information:</h3>
+<p>
+Source IP: $exec.all_fields.data.src_ip<br>
+Source Port: $exec.all_fields.data.src_port<br>
+Destination IP: $exec.all_fields.data.dest_ip<br>
+Destination Port: $exec.all_fields.data.dest_port<br>
+Protocol: $exec.all_fields.data.proto
+</p>
+
+<h3>HTTP Details:</h3>
+<p>
+Hostname: $exec.all_fields.data.http.hostname<br>
+URL: $exec.all_fields.data.http.url<br>
+Method: $exec.all_fields.data.http.http_method<br>
+User Agent: $exec.all_fields.data.http.http_user_agent<br>
+Status: $exec.all_fields.data.http.status
+</p>
+
+<h3>MISP Information:</h3>
+<p>
+IP Address: $misp_query.body.response.Attribute.#.value<br>
+Category: $misp_query.body.response.Attribute.#.category<br>
+Comment: $misp_query.body.response.Attribute.#.comment<br>
+Event Info: $misp_query.body.response.Attribute.#.Event.info
+</p>
+
+<h3>TheHive Alert:</h3>
+<p>
+Alert ID: $create_thehive_alert.body._id<br>
+Severity: $create_thehive_alert.body.severityLabel<br>
+Status: $create_thehive_alert.body.status<br>
+Tags: $create_thehive_alert.body.tags
+</p>
+
+<p>Please investigate this alert immediately.</p>
+</body>
+</html>
