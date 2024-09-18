@@ -1,4 +1,4 @@
-# Cloud SOAR: Docker-Based SQL Injection Defense
+# Docker-Orchestrated SOAR Environment on Oracle Cloud
 
 
 Architected Integration of Wazuh (SIEM/XDR), Suricata (IDS/IPS), Shuffle (SOAR platform), MISP (threat intelligence), and TheHive (incident response) and utilized Docker and custom Docker networks for the containerized components in Oracle Cloud environment.
