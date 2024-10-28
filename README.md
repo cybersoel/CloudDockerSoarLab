@@ -6,6 +6,12 @@ Architected Integration of Wazuh (SIEM/XDR), Suricata (IDS/IPS), Shuffle (SOAR p
 Automated end-to-end incident response workflow, featuring automatic detection of SQL injection attempts on an Apache2 web server, threat correlation with MISP, case creation in TheHive, and HTML-formatted email alerts.
 
 
+
+
+
+<h1 align="center">Summary Diagram</h1>
+
+
 ## Please click the link below to see the full documentation of my project ⬇️⬇️
 
 <br/>
@@ -16,8 +22,6 @@ Automated end-to-end incident response workflow, featuring automatic detection o
 
 
 
-
-<h1 align="center">Summary Diagram</h1>
 
 
 <p align="center">
