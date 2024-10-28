@@ -5,6 +5,12 @@ Architected Integration of Wazuh (SIEM/XDR), Suricata (IDS/IPS), Shuffle (SOAR p
 
 Automated end-to-end incident response workflow, featuring automatic detection of SQL injection attempts on an Apache2 web server, threat correlation with MISP, case creation in TheHive, and HTML-formatted email alerts.
 
+
+## Please click the link below to see the full documentation of my project ⬇️⬇️
+
+<br/>
+
+
 [Project Posted on Medium: "Crafting a Docker-based SOAR Lab: From SQL Injection to Automated Alerts with Suricata, Wazuh, MISP, TheHive, and Shuffle on Oracle Cloud Free Tier" by Soel Kwun](https://medium.com/@cybersoel/crafting-a-docker-based-soar-lab-from-sql-injection-to-automated-alerts-with-suricata-wazuh-5d081df1f42d)
 
 
